@@ -28,3 +28,13 @@ biopsy
 The dataset contains information about biopsies (rows) from breast tumors and description of these, determined by 9 attributes (columns). There is furthermore a column of the patient outcome being either benign or malignant.
 
 ## Data analysis
+
+## Data analysis Mette
+
+```{r}
+biopsy |> 
+  ggplot(mapping = aes(x=clump_thickness, 
+                       y=uniform_cell_size,
+                       color=outcome)) +
+  geom_point()
+```
