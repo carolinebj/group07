@@ -8,6 +8,12 @@ editor: visual
 
 ## Mette
 
+Here is some text
+
+```{r}
+some_code <- c(1,4,4)
+```
+
 ## Jaime
 
 ## Sarah
