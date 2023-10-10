@@ -39,6 +39,7 @@ print(of_code)
 ### New Analysis
 
 Jaimes new analysis code
+
 ```{r}
 Letters = c("A", "B", "C")
 ```
