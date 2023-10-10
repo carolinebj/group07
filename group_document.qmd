@@ -6,12 +6,32 @@ editor: visual
 
 ## Caroline
 
+### New fancy features
+
+```{r}
+name = "Caroline"
+title = "Captain"
+print(c(title, name))
+```
+
 ## Mette
 
 Here is some text
 
 ```{r}
 some_code <- c(1,4,4)
+```
+
+### New feature
+
+Some text
+
+```{r}
+few <- c(8,1,9)
+lines <- 9
+of_code <- few*lines
+
+print(of_code)
 ```
 
 ## Jaime
@@ -24,12 +44,12 @@ Letters = c("A", "B", "C")
 ```
 
 Lets see some cool code
+
 ```{r}
 a = 2
 b = 1
 D = a + b
 ```
-
 
 ## Sarah
 
@@ -37,8 +57,17 @@ D = a + b
 2 + 2
 ```
 
+### New feature
+
+Adding new feature
+
+```{r}
+array = c(1,2,3,4,5,0,5,3,2,8)
+array
+```
+
 ## Yassine
+
 ```{r}
 print(5+2)
 ```
-
