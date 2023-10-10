@@ -8,8 +8,12 @@ Top 10 Data Science Languages of ALL Time:
 4. has
 3. different
 2. tastes
+<<<<<<< HEAD:best_ds_langs
 <<<<<<< HEAD
 1. MatLab
 =======
 1. Python
 >>>>>>> 89b9861796367d728226a4f5dbf30a02b451e3c9
+=======
+1. R is superior!
+>>>>>>> 2794df39abd2b199ee289de8bcfab0ff0c8bd81f:best_ds_langs.txt
