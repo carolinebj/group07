@@ -12,4 +12,8 @@ editor: visual
 
 ## Sarah
 
+```{r}
+2 + 2
+```
+
 ## Yassine
