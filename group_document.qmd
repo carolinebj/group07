@@ -9,6 +9,13 @@ editor: visual
 ## Mette
 
 ## Jaime
+Lets see some cool code
+```{r}
+a = 2
+b = 1
+D = a + b
+```
+
 
 ## Sarah
 
