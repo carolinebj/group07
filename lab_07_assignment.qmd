@@ -36,3 +36,5 @@ biopsy |>
                        color=outcome)) +
   geom_point()
 ```
+
+The scatter plot above shows how the clump thickness and cell size is related. We see that there is no clear correlation, as the points are scattered very much all over. Instead, we find that the size of the clump and the cell is related to the outcome. Thus, smaller cell size and clump size correlates with a benign outcome, whereas thick clumps and large cells are related to a malignant outcome.
