@@ -16,6 +16,7 @@ We import necessary libraries:
 ```{r}
 #| warning: false
 library(tidyverse)
+library(broom)
 ```
 
 Then we import the biopsy data:
@@ -29,10 +30,32 @@ The dataset contains information about biopsies (rows) from breast tumors and de
 
 ## Data analysis
 
+### Mette
+
 ```{r}
 biopsy |> 
   ggplot(mapping = aes(x=clump_thickness, 
                        y=uniform_cell_size,
                        color=outcome)) +
   geom_point()
+```
+
+## Caroline
+
+```{r}
+pca_fit <- biopsy |> 
+  select(where(is.numeric)) |>  # retain only numeric columns
+  prcomp(scale = TRUE) # do PCA on scaled data
+```
+
+```{r}
+pca_fit |> 
+  augment(biopsy) |>  # add original dataset back in
+  ggplot(aes(.fittedPC1, .fittedPC2, color = outcome)) + 
+  geom_point(size = 1.5) +
+  scale_color_manual(
+    values = c(malignant = "red", benign = "darkgreen")
+  ) +
+  labs(x = "Fitted PC1",
+       y = "Fited PC2")
 ```
