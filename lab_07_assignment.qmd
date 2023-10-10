@@ -1,0 +1,14 @@
+---
+title: "Lab 2 Assignment: Group 02"
+format:
+  html:
+    embed-resources: true
+editor: visual
+author: "Sarah Rosenberg Asmussen (s194689), Mette Bøge Pedersen (s194679), Caroline Amalie Bastholm Jensen (s213427), Jaime Noguera Piera (s233773), Yassine Turki (s231735)"
+---
+
+## Import data
+
+## Data wrangling
+
+## Data analysis
