@@ -8,6 +8,12 @@ editor: visual
 
 ## Mette
 
+Here is some text
+
+```{r}
+some_code <- c(1,4,4)
+```
+
 ## Jaime
 Lets see some cool code
 ```{r}
@@ -19,4 +25,12 @@ D = a + b
 
 ## Sarah
 
+```{r}
+2 + 2
+```
+
 ## Yassine
+```{r}
+print(5+2)
+```
+
