@@ -40,6 +40,7 @@ biopsy |>
   geom_point()
 ```
 
+<<<<<<< HEAD
 ## Caroline
 
 ```{r}
@@ -59,3 +60,24 @@ pca_fit |>
   labs(x = "Fitted PC1",
        y = "Fited PC2")
 ```
+=======
+The scatter plot above shows how the clump thickness and cell size is related. We see that there is no clear correlation, as the points are
+scattered very much all over. Instead, we find that the size of the clump and the cell is related to the outcome. Thus, smaller cell size a
+
+
+### Sarah
+
+Comparing the relation between the cell size and mitoses in benign and malignant cells. Here we can observe from the figure that the malignant cells have a higher tendency of having a larger cell size while also having a higher mitoses.
+
+```{r}
+ggplot(data = biopsy,
+       aes(x = uniform_cell_size,
+           y = mitoses,
+           colour = outcome)) + 
+  geom_point() + 
+  theme_minimal() + 
+  labs(title = "Relation between cell size and mitoses in breast tumor biopsies",
+       x = "Uniform Cell Size",
+       y = "Mitoses")
+```
+>>>>>>> 3655bfa4e5da46964e5c2b06e54ce71c4595b340
