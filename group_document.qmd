@@ -19,3 +19,7 @@ some_code <- c(1,4,4)
 ## Sarah
 
 ## Yassine
+```{r}
+print(5+2)
+```
+
