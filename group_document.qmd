@@ -18,6 +18,10 @@ some_code <- c(1,4,4)
 
 ## Sarah
 
+```{r}
+2 + 2
+```
+
 ## Yassine
 ```{r}
 print(5+2)
