@@ -2,10 +2,4 @@
 .Rhistory
 .RData
 .Ruserdata
-<<<<<<< HEAD
-.data
-.data/_raw/
-group_document.qmd
-=======
 data/_raw/
->>>>>>> 2794df39abd2b199ee289de8bcfab0ff0c8bd81f
