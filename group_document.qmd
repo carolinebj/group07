@@ -36,6 +36,13 @@ print(of_code)
 
 ## Jaime
 
+### New Analysis
+
+Jaimes new analysis code
+```{r}
+Letters = c("A", "B", "C")
+```
+
 Lets see some cool code
 
 ```{r}
