@@ -14,14 +14,27 @@ Here is some text
 some_code <- c(1,4,4)
 ```
 
+### New feature
+
+Some text
+
+```{r}
+few <- c(8,1,9)
+lines <- 9
+of_code <- few*lines
+
+print(of_code)
+```
+
 ## Jaime
+
 Lets see some cool code
+
 ```{r}
 a = 2
 b = 1
 D = a + b
 ```
-
 
 ## Sarah
 
@@ -30,7 +43,7 @@ D = a + b
 ```
 
 ## Yassine
+
 ```{r}
 print(5+2)
 ```
-
