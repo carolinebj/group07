@@ -15,6 +15,14 @@ some_code <- c(1,4,4)
 ```
 
 ## Jaime
+
+### New Analysis
+
+Jaimes new analysis code
+```{r}
+Letters = c("A", "B", "C")
+```
+
 Lets see some cool code
 ```{r}
 a = 2
