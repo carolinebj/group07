@@ -6,6 +6,14 @@ editor: visual
 
 ## Caroline
 
+### New fancy features
+
+```{r}
+name = "Caroline"
+title = "Captain"
+print(c(title, name))
+```
+
 ## Mette
 
 Here is some text
@@ -15,13 +23,14 @@ some_code <- c(1,4,4)
 ```
 
 ## Jaime
+
 Lets see some cool code
+
 ```{r}
 a = 2
 b = 1
 D = a + b
 ```
-
 
 ## Sarah
 
@@ -30,7 +39,7 @@ D = a + b
 ```
 
 ## Yassine
+
 ```{r}
 print(5+2)
 ```
-
