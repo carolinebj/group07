@@ -1,5 +1,5 @@
 ---
-title: "Lab 2 Assignment: Group 02"
+title: "Lab 7 Assignment: Group 07"
 format:
   html:
     embed-resources: true
@@ -28,8 +28,6 @@ biopsy
 The dataset contains information about biopsies (rows) from breast tumors and description of these, determined by 9 attributes (columns). There is furthermore a column of the patient outcome being either benign or malignant.
 
 ## Data analysis
-
-## Data analysis Mette
 
 ```{r}
 biopsy |> 
